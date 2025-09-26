@@ -10,7 +10,7 @@ public class Actividad9 {
 		System.out.println("Introduzca un número entre 0 y 99,999: ");
 		numero=sc.nextFloat();
 		
-		if (numero<10&&numero>0) {
+		if (numero<10&&numero>=0) {
 			System.out.println("El número tiene una cifra");
 		}else if (numero>10&&numero<100){
 			System.out.println("El número tiene dos cifras");
@@ -29,3 +29,4 @@ public class Actividad9 {
 	}
 
 }
+
